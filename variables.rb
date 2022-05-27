@@ -4,7 +4,7 @@ y = 20
 suma = x + y
 puts suma
 # multiplicando dos variables
-precio_dolar= 20
+precio_dolar = 20
 peso_mx= 770
 conversion = precio_dolar * peso_mx
 puts conversion
