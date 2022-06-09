@@ -10,7 +10,7 @@ print arregloString.reverse
 puts ""
 print arregloInt.shuffle
 puts ""
-print arregloString.shuffle
+print arregloString.upcase
 puts ""
 puts arregloInt.include?(7)
 puts arregloString.include?("Cesar")
@@ -18,3 +18,4 @@ arregloString.delete("Miguel")
 arregloString.delete_at(1)
 print arregloString
 
+arregloInt.delete(rand(0..arregloInt.length))
