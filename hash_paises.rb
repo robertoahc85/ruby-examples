@@ -3,10 +3,13 @@ paises = {'Mexico' =>  100,
     'Alemania' => 30,
 "Estado unidos" => 77}
 
-puts "Estos son los paises"
-print paises.keys
-puts "estos son su valores"
-print paises.values
-puts '----'
-paises.reject!{|key, value| value < 55 } 
-print paises
+# puts "Estos son los paises"
+# print paises.keys
+# puts "estos son su valores"
+# print paises.values
+# puts '----'
+# paises.reject!{|key, value| value < 55 } 
+# print paises
+
+print paises.invert
+
